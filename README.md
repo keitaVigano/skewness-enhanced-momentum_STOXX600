@@ -11,6 +11,7 @@ The primary goal is to assess whether incorporating skewness into momentum-based
 | File                      | Description                                                       |
 |---------------------------|-------------------------------------------------------------------|
 | `analysis.ipynb`          | Main notebook with data loading, strategy implementation, metrics |
+| `analysis.html`           | Same analysis but in html format                                  |
 | `Europe_3_Factors.csv`    | Fama-French 3-factor model data for European equities             |
 | `STOXX600.csv`            | Monthly returns of STOXX600 index components                      |
 | `Stoxx 600 Originale.xlsm`| Original raw dataset of STOXX600 prices and constituents          |
