@@ -14,7 +14,7 @@ The primary goal is to assess whether incorporating skewness into momentum-based
 | `Europe_3_Factors.csv`    | Fama-French 3-factor model data for European equities             |
 | `STOXX600.csv`            | Monthly returns of STOXX600 index components                      |
 | `Stoxx 600 Originale.xlsm`| Original raw dataset of STOXX600 prices and constituents          |
-| `irx_yield_2004_2018.csv` | Monthly risk-free rate proxy from 13-week T-bill (`^IRX`)         |
+| `Germany_3Month_Bond.csv` | Monthly risk-free rate proxy from 3 months german bund            |
 | `.gitignore`              | Git configuration to ignore non-essential files                   |
 | `LICENSE`                 | MIT license file                                                  |
 | `README.md`               | This project description                                          |
@@ -47,6 +47,14 @@ These are tested separately on:
 - Small-cap stocks
 - Mid-cap stocks
 - Large-cap stocks
+
+## Reproducibility
+
+To ensure the code runs consistently across environments, use Conda to create the environment from the provided file:
+
+```bash
+conda env create -f environment.yaml
+conda activate momentum_skewness
 
 ## Summary
 
