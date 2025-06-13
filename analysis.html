@@ -7524,19 +7524,23 @@ a.anchor-link {
 <li><a href="#big-cap">Big Cap</a><ul>
 <li><a href="#with-volatility-strategy">With volatility strategy</a></li>
 <li><a href="#momentum-only">Momentum only</a></li>
+<li><a href="#cstvm">CSTVM</a></li>
 </ul>
 </li>
 <li><a href="#med-cap">Med Cap</a><ul>
-<li><a href="#with-volatility-strategy">With volatility strategy</a></li>
-<li><a href="#momentum-only">Momentum only</a></li>
+<li><a href="#with-volatility-strategy-med">With volatility strategy</a></li>
+<li><a href="#momentum-only-med">Momentum only</a></li>
+<li><a href="#cstvm-med">CSTVM</a></li>
 </ul>
 </li>
 <li><a href="#small-cap">Small Cap</a><ul>
-<li><a href="#with-volatility-strategy">With volatility strategy</a></li>
-<li><a href="#momentum-only">Momentum only</a></li>
+<li><a href="#with-volatility-strategy-small">With volatility strategy</a></li>
+<li><a href="#momentum-only-small">Momentum only</a></li>
+<li><a href="#cstvm-small">CSTVM</a></li>
 </ul>
 </li>
 <li><a href="#general-comparison">General comparison</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
 <li><a href="#data-sources">Data Sources</a></li>
 <li><a href="#references">References</a></li>
 </ul>
@@ -7548,7 +7552,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [120]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -13523,7 +13527,7 @@ Max drawdown: -0.7818
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [116]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">results_big_csvtm_final</span> <span class="o">=</span> <span class="n">analyze_strategy_metrics</span><span class="p">(</span>
@@ -14145,7 +14149,7 @@ Max drawdown: -0.8611
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="With-volatility-strategy">With volatility strategy<a class="anchor-link" href="#With-volatility-strategy">¶</a></h2>
+<h2 id="With-volatility-strategy-med">With volatility strategy med<a class="anchor-link" href="#With-volatility-strategy-med">¶</a></h2>
 </div>
 </div>
 </div>
@@ -14723,7 +14727,7 @@ Max drawdown: -0.3894
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Momentum-only">Momentum only<a class="anchor-link" href="#Momentum-only">¶</a></h2>
+<h2 id="Momentum-only-med">Momentum only med<a class="anchor-link" href="#Momentum-only-med">¶</a></h2>
 </div>
 </div>
 </div>
@@ -15300,7 +15304,7 @@ Max drawdown: -0.8549
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="CSVTM">CSVTM<a class="anchor-link" href="#CSVTM">¶</a></h2>
+<h2 id="CSTVM-med">CSTVM med<a class="anchor-link" href="#CSTVM-med">¶</a></h2>
 </div>
 </div>
 </div>
@@ -16454,7 +16458,7 @@ Max drawdown: -0.9802
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="With-volatility-strategy">With volatility strategy<a class="anchor-link" href="#With-volatility-strategy">¶</a></h2>
+<h2 id="With-volatility-strategy-small">With volatility strategy small<a class="anchor-link" href="#With-volatility-strategy-small">¶</a></h2>
 </div>
 </div>
 </div>
@@ -17032,7 +17036,7 @@ Max drawdown: -0.3560
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Momentum-only">Momentum only<a class="anchor-link" href="#Momentum-only">¶</a></h2>
+<h2 id="Momentum-only-small">Momentum only small<a class="anchor-link" href="#Momentum-only-small">¶</a></h2>
 </div>
 </div>
 </div>
@@ -17609,7 +17613,7 @@ Max drawdown: -0.8645
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="CSVTM">CSVTM<a class="anchor-link" href="#CSVTM">¶</a></h2>
+<h2 id="CSTVM-small">CSTVM small<a class="anchor-link" href="#CSTVM-small">¶</a></h2>
 </div>
 </div>
 </div>
@@ -18138,7 +18142,7 @@ Max drawdown: -0.8645
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [117]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">results_small_csvtm_final</span> <span class="o">=</span> <span class="n">analyze_strategy_metrics</span><span class="p">(</span>
@@ -18193,7 +18197,7 @@ Max drawdown: -0.9657
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [115]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [119]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
@@ -18210,7 +18214,7 @@ Max drawdown: -0.9657
     <span class="p">(</span><span class="s1">'big'</span><span class="p">,</span> <span class="s1">'base'</span><span class="p">,</span> <span class="n">results_big_mom</span><span class="p">),</span>
     <span class="p">(</span><span class="s1">'big'</span><span class="p">,</span> <span class="s1">'skew+mom'</span><span class="p">,</span> <span class="n">results_big</span><span class="p">),</span>
     <span class="p">(</span><span class="s1">'big'</span><span class="p">,</span> <span class="s1">'skew+mom+vol'</span><span class="p">,</span> <span class="n">results_big_vol</span><span class="p">),</span>
-    <span class="p">(</span><span class="s1">'big'</span><span class="p">,</span> <span class="s1">'CSVTM'</span><span class="p">,</span> <span class="n">results_small_csvtm_final</span><span class="p">)</span>
+    <span class="p">(</span><span class="s1">'big'</span><span class="p">,</span> <span class="s1">'CSVTM'</span><span class="p">,</span> <span class="n">results_big_csvtm_final</span><span class="p">)</span>
 <span class="p">]:</span>
     <span class="n">row</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'group'</span><span class="p">:</span> <span class="n">group</span><span class="p">,</span> <span class="s1">'type'</span><span class="p">:</span> <span class="n">label</span><span class="p">}</span>
     <span class="n">row</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
@@ -18229,7 +18233,7 @@ Max drawdown: -0.9657
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[115]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[119]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -18433,21 +18437,70 @@ Max drawdown: -0.9657
 <th>11</th>
 <td>big</td>
 <td>CSVTM</td>
-<td>0.395571</td>
-<td>2.006466</td>
-<td>0.417052</td>
-<td>2.092549</td>
-<td>0.264189</td>
-<td>0.340480</td>
-<td>0.438925</td>
-<td>0.638517</td>
-<td>0.497759</td>
-<td>-0.965740</td>
+<td>0.268047</td>
+<td>3.088437</td>
+<td>0.281193</td>
+<td>3.194489</td>
+<td>0.215956</td>
+<td>0.348433</td>
+<td>0.520200</td>
+<td>0.300382</td>
+<td>0.184079</td>
+<td>-0.676764</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ea89f0ef">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4a9f4816">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>This study assessed the effectiveness of four equity selection strategies on stocks in the STOXX Europe 600, grouped by market capitalization:</p>
+<ul>
+<li><em>baseline momentum</em></li>
+<li><em>skewness enhanced momentum (skew+mom)</em></li>
+<li><em>skewness and volatility-adjusted momentum (skew+mom+vol)</em></li>
+<li><em>time-varying market exposure variant (CS/TVM) + skewness</em></li>
+</ul>
+<p>Following the framework of Jacobs et al. (2016), firms were segmented into small, medium, and large capitalization groups to reflect the heterogeneity of momentum profitability and implementation costs across size classes. The aim was to examine whether conditioning on skewness and volatility improves the risk-adjusted performance of momentum-based strategies, and whether their effectiveness varies by size.</p>
+<h3 id="Small-Cap-Segment"><em>Small Cap Segment</em><a class="anchor-link" href="#Small-Cap-Segment">¶</a></h3><p>Among small-cap stocks, the <em>skew+mom+vol strategy</em> delivered the most favorable risk-return profile:</p>
+<ul>
+<li>It achieved a CAPM alpha of 0.3166 with a t-statistic of 4.17, indicating statistically significant excess returns over the market.</li>
+<li>Its Sharpe ratio of 0.384 and Sortino ratio of 0.747 were higher than all other strategies in the same segment, suggesting superior compensation for both total and downside risk.</li>
+<li>The strategy also recorded the lowest downside volatility (0.138) and maximum drawdown (–0.356), substantially lower than skew+mom and baseline momentum.</li>
+</ul>
+<p>Compared to skew+mom, which yielded a higher raw alpha (0.4169), skew+mom+vol achieved markedly better drawdown control and downside risk reduction. Similarly, although CS/TVM produced a comparable alpha (0.3955), it exhibited significantly higher volatility and a less favorable Sortino ratio (0.340). These findings confirm that controlling for volatility is critical in the small-cap universe, where idiosyncratic risk and liquidity constraints are typically more pronounced.</p>
+<h3 id="Medium-Cap-Segment"><em>Medium Cap Segment</em><a class="anchor-link" href="#Medium-Cap-Segment">¶</a></h3><p>In the medium-cap group, <em>skew+mom+vol</em> remained the most balanced strategy:</p>
+<ul>
+<li>It posted a CAPM alpha of 0.2923 (t = 4.23), outperforming both the baseline (0.2170) and skew+mom (0.3483) when adjusted for volatility and drawdowns.</li>
+<li>The strategy's Sharpe ratio (0.348) and Sortino ratio (0.595) exceeded those of all other strategies, while its downside volatility (0.146) and maximum drawdown (–0.389) remained low.</li>
+</ul>
+<p>While skew+mom delivered the highest alpha, it came at the cost of higher risk exposure, with a Sortino ratio nearly half that of skew+mom+vol. CS/TVM performed well in terms of alpha (0.3416) and Information ratio (0.532), but did not achieve the same downside protection. These results suggest that volatility-aware momentum strategies dominate in this segment, both in terms of return and risk control.</p>
+<h3 id="Large-Cap-Segment"><em>Large Cap Segment</em><a class="anchor-link" href="#Large-Cap-Segment">¶</a></h3><p>Among large-cap stocks, the <em>baseline momentum</em> strategy performs poorly: its CAPM alpha (0.138, t = 1.83) is not statistically significant, and both Sharpe (–0.168) and Sortino (–0.208) ratios are negative, indicating an unfavorable risk-return profile. Its maximum drawdown (–0.782) is the highest among all strategies.</p>
+<p>Adding skewness improves performance: the <em>skew+momentum</em> strategy increases alpha to 0.274 (t = 3.00) and achieves positive risk-adjusted returns (Sharpe = 0.220, Sortino = 0.342). However, downside volatility remains high (0.200), and drawdown control is limited (–0.719).</p>
+<p>The <em>skew+momentum+volatility</em> strategy delivers the best overall performance. With an alpha of 0.289 (t = 4.23), it achieves the highest Sharpe (0.319) and Sortino (0.582) ratios, lowest downside volatility (0.133), and significantly reduced drawdown (–0.423). This indicates that jointly screening for skewness and volatility substantially improves momentum effectiveness, even in the more efficient large-cap segment.</p>
+<p>The <em>CS/TVM+skew</em> strategy performs comparably in terms of alpha (0.268, t = 3.08), but with lower Sharpe (0.216) and Sortino (0.348) ratios and higher drawdown (–0.677). While it offers more stability than baseline or skew-only strategies, it is outperformed by skew+mom+vol in terms of both return and downside risk management.</p>
+<p>In conclusion the large-cap group, <em>skew+mom+vol</em> remained the most balanced strategy</p>
+<h3 id="Underperformance-and-Limitations"><em>Underperformance and Limitations</em><a class="anchor-link" href="#Underperformance-and-Limitations">¶</a></h3><p>The baseline momentum strategy consistently underperformed in terms of risk-adjusted metrics, particularly in the large-cap segment. Despite positive alpha values in the small and medium groups, the strategy exhibited high volatility, low Sortino ratios, and large drawdowns, indicating insufficient risk compensation.</p>
+<p>The skew+mom strategy improved raw alpha but failed to mitigate tail risk. For example, in the small-cap segment, it produced the highest downside volatility (0.534) and a drawdown exceeding –0.98. The absence of volatility screening likely led to an overexposure to unstable assets, undermining the reliability of returns despite statistical significance.</p>
 </div>
 </div>
 </div>
